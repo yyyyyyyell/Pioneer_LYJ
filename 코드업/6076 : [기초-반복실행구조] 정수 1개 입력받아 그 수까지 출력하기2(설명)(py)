@@ -1,0 +1,8 @@
+n = int(input())
+for i in range(n+1) :
+  print(i)
+
+''' range(n)은 0부터 n-1 까지의 수열을 의미한다.
+range(끝)
+range(시작, 끝)
+range(시작, 끝, 증감) '''
