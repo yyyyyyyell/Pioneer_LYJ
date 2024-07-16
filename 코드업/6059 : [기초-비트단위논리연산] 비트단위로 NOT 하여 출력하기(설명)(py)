@@ -1,6 +1,11 @@
 a = int(input())
 print(~a)
 
-'''' 비트단위(bitwise)연산자 ~ 를 붙이면 된다.(~ : tilde, 틸드라고 읽는다.)
- 정수 n이라고 할 때, ~n = -n - 1, -n = ~n + 1 과 같은 관계로 표현할 수 있다.
+'''' 
+비트단위(bitwise)연산자는,
+~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor),
+<<(bitwise left shift), >>(bitwise right shift) 가 있다.
+
+비트단위(bitwise)연산자 ~ 를 붙이면 된다.(~ : tilde, 틸드라고 읽는다.)
+정수 n이라고 할 때, ~n = -n - 1, -n = ~n + 1 과 같은 관계로 표현할 수 있다.
 쉽게 말해, 1010 -> ~1010 = 0101 '''
