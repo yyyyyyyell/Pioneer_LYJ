@@ -1,0 +1,9 @@
+a, b = input().split()
+a = int(a)
+b = int(b)
+c = (a if (a>=b) else b)
+print(int(c))
+
+''' 3개의 요소로 이루어지는 3항 연산은
+"x if C else y" 의 형태로 작성이 된다.
+조건식 또는 값이 True 이면 x 값이 사용되고, True가 아니면 y 값이 사용되도록 하는 코드이다. '''
